@@ -15,7 +15,7 @@
 <body>
     <h1>CENTRAL DE TAREFAS</h1>
     <br><br>
-    <button><a href="cadastro2.php">Cadastro de Tarefas</a></button>
+    <button><a href="acessoCadastro.php">Cadastro de Tarefas</a></button>
     <button><a href="acessoConsulta.php">Consultar</a></button>
     <button><a href="acessoAtualizar.php">Atualizar</a></button>
     <button><a href="acessoExcluir.php">Excluir</a></button>
@@ -41,7 +41,7 @@
         echo $tarefa->imprimir();
     ?>
 </form>
-<button><a href="registrarTarefa.php">Voltar</a></button>   
+<button><a href="acessoCadastro.php">Voltar</a></button>   
 
 </body>
 </html>
